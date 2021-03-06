@@ -3,7 +3,7 @@ library(dplyr)
 library(rvest)
 
 
-setwd("C:/Users/mann5/OneDrive/Desktop/Everything/5.11.20/Folder/football/recruiting 2021/webscrabe")
+setwd("C:/Users/...")#insert path to data here
 
 #test
 # link = "https://247sports.com/college/florida/Season/2021-Football/Commits/"
@@ -198,7 +198,7 @@ data_all <- list.files(path = "C:/Users/mann5/OneDrive/Desktop/Everything/5.11.2
 data_all
 as.data.frame(data_all)
 write.csv(data_all,"All_teams.csv")
-
+## Part 2 ##
 #### After running cleaner tool in Excel ####
 ## Specialists removed, positions converted to position groups
 
