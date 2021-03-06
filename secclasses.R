@@ -191,7 +191,7 @@ write.csv(ark2021,"ark2021.csv")
 library(readr)
 library(plyr)
 
-data_all <- list.files(path = "C:/Users/mann5/OneDrive/Desktop/Everything/5.11.20/Folder/football/recruiting 2021/webscrabe",
+data_all <- list.files(path = "C:/Users/...",
                        pattern = "*.csv",full.names = TRUE) %>% 
   lapply(read_csv) %>% 
   bind_rows
